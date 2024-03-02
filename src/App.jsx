@@ -7,6 +7,7 @@ import Cart from './views/Cart'
 
 
 
+
 function App() {
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/pizza/:id' element={<PizzaDetalle></PizzaDetalle>}></Route>
         <Route path='/carro' element={<Cart></Cart>}></Route>
       </Routes>
+      
     </div>
   )
 }
