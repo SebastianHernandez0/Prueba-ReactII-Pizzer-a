@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
-import Context, { CounterContext } from "../context/Context";
+import { CounterContext } from "../context/Context";
 import PizzaSvg from "/pizza-icon.svg"
 import CarritoPng from "/carrito-de-compras.png"
-import context from "react-bootstrap/esm/AccordionContext";
+
 
 export default function Navbar() {
 

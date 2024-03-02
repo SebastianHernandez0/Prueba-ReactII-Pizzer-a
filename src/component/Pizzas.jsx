@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext} from "react";
 import { CounterContext } from "../context/Context";
 import { useNavigate } from "react-router-dom";
 
